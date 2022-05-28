@@ -39,7 +39,7 @@ public class CoreService : ICoreService
 
             standardOutput.Write(consoleBuffer, 0, consoleBuffer.Length - 1);
 
-            Thread.Sleep(20);
+            Thread.Sleep(30);
         }
 
         standardOutput.Close();
